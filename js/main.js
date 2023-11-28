@@ -7,7 +7,7 @@ btn_play.addEventListener("click",
             squareElement.append(i);
             squareElement.addEventListener("click",
                 function () {
-                    squareElement.classList.add("clicked");
+                    this.classList.add("clicked");
                 }
             )
             grid.append(squareElement);
