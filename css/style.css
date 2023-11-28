@@ -24,11 +24,12 @@ header {
     padding-right: 10px;
 }
 
-.btn-play {
+#btn-play {
     border: 1px solid gray;
     border-radius: 10px;
     padding: 5px 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -38,10 +39,9 @@ main {
     padding: 70px 0;
 }
 .grid{
-    width: 650px;
-    height: 650px;
+    width: 600px;
+    height: 600px;
     margin: auto auto;
-    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -53,4 +53,14 @@ main {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: green;
+}
+
+/* FOOTER STYLE */
+footer{
+    height: 80px;
 }
