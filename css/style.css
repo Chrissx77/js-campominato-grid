@@ -38,15 +38,19 @@ main {
     padding: 70px 0;
 }
 .grid{
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
     margin: auto auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
 }
 
 .square{
     width: calc(100% / 10);
-    border: 2px solid purple;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
