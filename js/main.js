@@ -7,6 +7,7 @@ btn_play.addEventListener("click",
             squareElement.append(i);
             squareElement.addEventListener("click",
                 function () {
+                    console.log("Hai cliccato la cella numero: " + i);
                     this.classList.add("clicked");
                 }
             )
